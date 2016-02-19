@@ -1,0 +1,205 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.up{
+    width: 100%;
+    height: 30px;
+    background-color: #0099CC;
+}
+.midle{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, white, #00CCFF);
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgba(130,240,255,1);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(130,240,255,1);
+    box-shadow: inset 0px 1px 3px 0px rgba(130,240,255,1);
+}
+.down{
+    width: 100%;
+    height: 885px;
+    background: linear-gradient(to top, #3366FF, #33CCFF);
+    color: white;
+    position: relative;
+    
+}
+  .copyright{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;  
+    z-index: 1;
+    height: 20px;
+    color: aliceblue;
+    font-size: 14px;
+    
+}
+.page{
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 1035px;
+    background-color: white;
+    -webkit-box-shadow: 0px 5px 5px 1px rgba(43,43,43,1);
+    -moz-box-shadow: 0px 5px 5px 1px rgba(43,43,43,1);
+    box-shadow: 0px 5px 5px 1px rgba(43,43,43,1);
+}
+.picher1{  
+    margin-top: 9px;
+    float:left;
+}
+.contact{
+    margin: 5px 30px 5px 0px;
+    padding: 0px 0px 0px 540px ;    
+    float: right;
+    color: #0099CC;
+    font-family:sans-serif;
+    font-size: 12px;
+    line-height: 18px
+}
+.cont{
+    font-weight: bold;
+}
+.picher2{
+    float: right;
+}
+.country{
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    color: #0099CC;
+    font-size: 11px;
+}
+.count1{
+    margin: 21px;
+    text-decoration: underline;
+}
+.count2{
+    margin: 7px;
+    text-decoration: underline;
+}
+.count3{
+    margin: 15px;
+    text-decoration: underline;
+}
+.count4{
+    margin: 7px;
+    text-decoration: underline;
+}
+.count5{
+    margin: 5px;
+    text-decoration: underline;
+}
+.count6{
+    text-decoration: underline;
+}
+.picher3{
+    width: 100%;
+}
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 437px;
+    z-index: 1;
+}
+ul:after {
+    display: block;
+    clear: both;
+    float: none;
+    
+}
+ul.menu > li{
+    float: left;
+    position: relative;
+    padding: 5px 38.5px 5px;
+    color: white;
+    background-color: #303030;
+    border-bottom: 1px solid black;    
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+ul.menu > li > a {
+    display:block;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+    background-color: #303030;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 180px;
+    top: 100%;
+    left: 30px;
+    background-color: aqua;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display:block;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    background-color: #303030;
+    text-decoration: none;
+}
+ul.submenu > li > a:hover {
+    text-decoration: underline;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+}
+.triangle{
+    font-size: 8px;
+    padding: 3px;
+}
+.left{
+    display: block;
+    position:absolute;
+    top: 468px;
+    padding: 0px 0px 0px 15px;
+    border-right: 1px solid #C8C8C8;
+    background-color: #E8E8E8;
+    height: 567px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #505050;
+}
+.inf{
+    padding: 5px 40px;
+    color: #303030;
+    font-weight: bold;
+    font-size: 18px;
+}
+.right{
+    display: block;
+    position: absolute;
+    top: 468px;
+    right: 0px;
+    width: 200px;
+    height: 567px;
+    padding: 0px 0px 0px 15px;
+    border-left: 1px solid #C8C8C8;
+    background-color: #E8E8E8;
+    color: #505050;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+.news{
+    padding: 5px 40px;
+    color: #303030;
+    font-weight: bold;
+    font-size: 18px;
+}
