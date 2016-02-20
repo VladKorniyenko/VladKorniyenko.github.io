@@ -72,26 +72,26 @@
 }
 .count1{
     margin: 21px;
-    text-decoration: underline;
+  
 }
 .count2{
     margin: 7px;
-    text-decoration: underline;
+   
 }
 .count3{
     margin: 15px;
-    text-decoration: underline;
+   
 }
 .count4{
     margin: 7px;
-    text-decoration: underline;
+ 
 }
 .count5{
     margin: 5px;
-    text-decoration: underline;
+   
 }
 .count6{
-    text-decoration: underline;
+    
 }
 .picher3{
     width: 100%;
@@ -135,7 +135,7 @@ ul.submenu {
     display: none;
     position: absolute;
     width: 180px;
-    top: 100%;
+    top: 30px;
     left: 30px;
     background-color: aqua;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
