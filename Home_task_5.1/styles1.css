@@ -2,8 +2,20 @@
     margin: 0px;
     padding: 0px;
 }
+
+@font-face {
+    font-family: 'Helvetica Neue Cyrlight';
+    src: url('fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype');
+         url('fonts/helveticaneuecyr-light-webfont.woff2') format('woff2');
+         url('fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+         url('fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .phone{
-  background-image:url(img1.jpg);
+    background-image:url(img1.jpg);
     height: 1000px;
     width: 1349px;
     margin-top: 33px;
@@ -21,7 +33,7 @@
     padding: 9px 20px 9px;
     color: rgb(78,158,215);
     background: rgb(8,84,148);
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue Cyrlight' sans-serif;
     font-size: 15px;
 }
 li:first-child{
@@ -41,7 +53,7 @@ li:nth-child(7){
     background: linear-gradient(to top, rgb(46,122,196), rgb(77,170,218));
 }
 li:last-child{
-    padding: 17.5px 10px;
+    padding: 17.5px 21px;
 }
 .menu > li > span{
     text-decoration: underline;
@@ -64,11 +76,11 @@ li:last-child{
 }
 .up{
    padding: 10px 140px;
-   color: rgb(200,200,200)
+   color: rgb(200,200,200);
 }
 h2{
     padding: 14px 235px;
-    color:white;
+    color: white;
     display: block;
     text-align: center;
     position: absolute;
@@ -93,7 +105,7 @@ h2{
     padding: 9px 80px 9px 30px;
     color: white;
     background: linear-gradient(to top, rgb(45,68,120), rgb(59,83,143));
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
 }
 .smoll{
@@ -105,6 +117,7 @@ h2{
     font-size: 12px;
     text-align: center;
     padding: 0px 140px;
+    font-family: 'Helvetica Neue Cyrlight';
 }
 .face > li:first-child{
     padding: 3px 15px;
@@ -124,7 +137,7 @@ h2{
     margin: 30px;
     padding: 0px 25px;
     color: rgb(150,150,150);
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue Cyrlight' sans-serif;
     font-size: 14px;
 }
 .ou > span:before{
@@ -154,6 +167,7 @@ form{
     background: rgb(15,14,14);
     margin-bottom: 20px;
     padding: 0px 20px;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
@@ -170,6 +184,7 @@ input.one:focus{
     background: rgb(15,14,14);
     margin-bottom: 20px;
     padding: 0px 20px;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
@@ -186,6 +201,7 @@ input.two:focus{
     background: rgb(15,14,14);
     margin-bottom: 20px;
     padding: 0px 20px;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
@@ -202,6 +218,7 @@ input.three:focus{
     background: rgb(15,14,14);
     margin-bottom: 20px;
     padding: 0px 20px;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
@@ -218,6 +235,7 @@ input.four:focus{
     background: rgb(15,14,14);
     margin-bottom: 20px;
     padding: 0px 20px;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: none;
     border-bottom: 1px solid grey;
@@ -231,14 +249,15 @@ input.fife:focus{
 .sen{
     position:relative;
     bottom: 1px;
-    color: rgb(200,200,200)
+    color: rgb(200,200,200);
+    font-family: 'Helvetica Neue Cyrlight';
 }
 .create{
     margin: 20px 70px;
     padding: 8px 10px;
     color: white;
     background: linear-gradient(to top, rgb(46,122,196), rgb(75,167,216));
-    font-family: sans-serif;
+    font-family: 'Helvetica Neue Cyrlight';
     font-size: 15px;
     border: 2px solid rgb(75,167,216);
     border-radius: 3px;
