@@ -55,6 +55,35 @@ li:nth-child(7){
 li:last-child{
     padding: 17.5px 21px;
 }
+li:first-child >a{
+    color: rgb(78,158,215);
+    text-decoration: none;
+}
+li:nth-child(2) >a{
+    color: white;
+    background-color: rgb(78,171,218);
+    text-decoration: none;
+}
+li:nth-child(3) >a{
+    color: rgb(78,158,215);
+    text-decoration: none;
+}
+li:nth-child(4) >a{
+    color: rgb(78,158,215);
+    text-decoration: none;
+}
+li:nth-child(5) >a{
+    color: rgb(78,158,215);
+    text-decoration: none;
+}
+li:nth-child(6) >a{
+    color: white;
+    text-decoration: none;
+}
+li:nth-child(7) >a{
+    color: white;
+    text-decoration: none;
+}
 .menu > li > span{
     text-decoration: underline;
 }
