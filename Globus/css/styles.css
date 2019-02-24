@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+/*.telo{
+    background-image:url(../img/Tourist.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+}*/
+
+.phone{  /*Фон под Логотип*/
+    height: 180px;
+    background-image: url(../img/phone.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;    /*Логотип в центре*/
+}
+.logo{
+    margin-top: 20px;    /*Логотип отступ*/
+    /* display: block;
+    margin: auto; */
+}
+
+
+                    /*Верхнее меню*/
+
+.menu1{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    right: 0px;
+    padding-left: 33%;
+    background-color: #234;
+}
+.menu1>li{
+    list-style: none;
+    display: block;
+    float: left;
+    position: relative;
+    /* margin: 5px;
+    padding: 5px; */
+}
+.menu1>li>p{
+    padding: 10px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: block;
+    transition: background-color 0.7s, color 0.7s;
+    /* border: 1px solid red; */
+}
+.menu1>li>p:hover{
+    /* background-color: orange; */
+    background-color: #19f;
+}
+.submenu{
+     position: absolute;
+     top: 43px;
+     left: 0px;
+}
+.submenu>li{
+    list-style: none;
+    /* opacity: 0; */
+    transition: height 0.4s/*, opacity 0.7s*/;
+    height: 0px;
+}
+.submenu>li>a{
+    padding: 10px;
+    width: 150px;
+    color: white;
+    background-color: rgba(130,130,130,0.8);
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: none;
+    height: inherit;
+    transition: background-color 0.7s, color 0.7s;
+}
+.submenu>li>a:hover{
+      background-color: #19f;
+      text-decoration: none;
+}
+.menu1>li:hover>.submenu>li>a{
+    display: block;
+    /*opacity: 1; */                               /*Видимость, связана с опасити 0*/
+}
+.menu1>li:hover>.submenu>li{
+    /*opacity: 1;*/                                /*Видимость, связана с опасити 0*/
+    height: 25px;
+    /* padding: 11px 0px; */
+    margin: 0px 0px 21px;
+}
+@media (max-width:1440px) {
+        .menu1>li>p{
+            width: 120px;
+        }
+}
+@media (max-width:1024px) {
+        .menu1>li>p{
+            width: 100px;
+        }
+}
+@media (max-width:724px) {
+        .menu1>li>p{
+            width: 80px;
+        }
+}
+@media (max-width:1680px) {
+        .menu1{
+            padding-left: 25%;
+        }
+}
+@media (max-width:924px) {
+        .menu1{
+            padding-left: 15%;
+        }
+}
+@media (max-width:624px) {
+        .menu1{
+            padding-left: 5%;
+        }
+}
+            /*Верхнее менб - конец */
+
+
+.clearfix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+            /*Боковое меню*/
+.aside{
+  margin-top: 58px;
+  height: 1800px;
+  color: #005;
+  float: left;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: rgba(205,205,205,0.8);
+  display: block;
+  clear: both;
+  -webkit-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+
+}
+
+.aside>ul{
+    background-color: #777;
+
+}
+.aside_item{
+    width: 250px;
+    list-style: none;
+}
+.aside_item>a{
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid  black;
+}
+.aside_item>a:hover{
+    background-color: #19f;
+}
+
+            /* Контент - начало */
+
+.box1{
+    margin-left: 7%;
+    height: 300px;
+    width: 300px;
+    background-color: #eee;
+    float: left;
+    /* border: 1px solid black; */
+    margin-top: 58px;
+    -webkit-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.75);
+}
+.box1_link{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.box1:hover{
+    background-color: #fff;
+}
+.box1_img{
+    margin: 20px 25px 0px;
+    height: 250px;
+    width: 250px;
+}
+.box1_name{
+    margin: -5px 0px 0px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #eee;
+    color: black;
+}
+@media (max-width:1440px) {
+    .box1{
+        margin-left: 5%;
+    }
+}
+@media (max-width:1024px) {
+    .box1{
+        margin-left: 5%;
+        height: 250px;
+        width: 250px;
+    }
+    .box1_img{
+        margin: 20px 25px 0px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+    div>p{
+      color: #90f;
+      /* font-family: fantasy; */
+      font-family: sans-serif;
+      font-size: 18px;
+      background-color: rgba(255,255,255,0.8);
+    }
+    .content:first-letter{
+      color: red;
+    }
+    .content::selection{
+      color: red;
+      background-color: black;
+    }
+/* a:hover{
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  transition: background-color 0.5s, color 0.3s;
+} */
+.content:hover{
+  color: green;
+}
+   .age{
+     margin-left: 10px;
+     height: 50px;
+     width: 200px;
+     background-color: #FF0;
+     display: block;
+   }
+   .file{
+     margin-top: 15px;
+     height: 50px;
+     width: 200px;
+     background-color: #0FF;
+     display: block;
+   }
+   .column{
+       height: 1285px;  /*Высота трех колонок*/
+   }
+   @media (max-width:1680px) {
+        .column{
+                height: 553px;
+            }
+   }
+
+    /* Footer */
+
+        /*Контейнер для footer */
+        .bottom{
+        /* margin-top: 1500px; */
+        height: 150px;
+        background-color: #49f;
+        position: relative;
+        display: block;
+        clear: both;
+    }
+        /*Контейнер для footer - Конец */
+    .footer{
+        padding-left: 33%;
+        background-color: #49f;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
+    .footer_item{
+        float: left;
+        list-style: none;
+
+    }
+    .footer_link{
+        display: block;
+        /* margin-right: 30px; */
+        padding: 10px 0px 10px 10px;
+        width: 200px;
+        font-size: 20px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #fff;
+        background-color: #49f;
+    }
+    .footer_indent{
+        padding: 5px 10px;
+        color: white;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    .footer_item:nth-child(2){
+        padding-right: 50px;        /*Отступ для доставки и оплаты*/
+    }
+    @media (max-width:1200px) {
+        .footer_link{
+            width: 190px;
+        }
+    }
+    @media (max-width:900px) {
+        .footer_link{
+            width: 180px;
+        }
+    }
+    /* @media (max-width:724px) {
+        .footer_link{
+            width: 180px;
+        }
+    }
+    @media (max-width:384px) {
+        .footer_link{
+            width: 180px;
+        }
+    } */
+    @media (max-width:1680px) {
+        .footer{
+            padding-left: 22%;
+        }
+    }
+    @media (max-width:1024px) {
+        .footer{
+            padding-left: 5%;
+        }
+    }
+    @media (max-width:768px) {
+        .footer{
+            padding-left: 0%;
+        }
+    }
+    /* Footer */
+
+    /*Страница 1*/
+
+.head{
+    height: 100px;
+    background-color: #DE0;
+}
+.conteiner{
+    position: relative;
+    overflow: hidden;
+}
+.box{
+    float: left;
+    margin: 20px 2%;
+    height: 100px;
+    width: 29%;
+    background: green;
+    border: 20px solid black;
+    box-sizing: border-box;
+}
+    @media (max-width: 1024px) {
+        .box{
+            width: 46%;
+        }
+    }
+    @media (max-width: 768px) {
+        .box{
+            width: 96%;
+        }
+    }
+/*.side{
+    width: 300px;
+    background-color: rgba(0,5,255,0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.art{
+    margin-left: 300px;
+    background-color: #ABC;
+    float: right;
+}*/
+/*.form{
+    margin-left: 300px;
+    background-color: #ABC;
+    float: right;
+}*/
+footer{
+    clear: both;
+    height: 100px;
+    background-color: #09F;
+}
+.special{
+  color: red;
+}
+
+
+
+
+            /* Страницы с товарами */
+    .wrapperPicture{
+        margin: 5px;
+        width: 800px;
+        background-color: #f95;
+    }
+    .picture{
+
+    }
+    .back{
+        /* margin: 5px; */
+        width: 100px;
+        height: 50px;
+        background-color: #19f;
+        font-family: cursive;
+        text-align: center;
+        border: lime solid 5px;
+    }
+    .back_link{
+        margin: 2px 0px;
+        display: block;
+        float: left;
+        width: 100px;
+        height: 50px;
+        color: white;
+        font-size: 30px;
+        text-decoration: none;
+    }
